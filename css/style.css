@@ -1,0 +1,147 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Alison finch', sans-serif;
+}
+
+.wrap{
+    background: #FFF5EB;
+}
+
+.name{
+    font-family: 'Alison finch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 148px;
+    line-height: 147px;
+    color: #222222;
+    margin: 0;
+    padding: 150px 5px 250px;
+}
+
+.skrip__block{
+    background: #222;
+    padding: 300px 0 250px;
+    position: relative;
+    margin-bottom: 228px;
+}
+
+.text-skrip{
+    font-family: 'Alison finch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 90px;
+    color: #FEFEFE;
+}
+
+.scrip__img-1{
+    width: 84%;
+    position: absolute;
+    bottom: 55%;
+    right: 0;
+}
+.scrip__img-2{
+    position: absolute;
+    top:  80%;
+    left: 0;
+}
+
+.photos{
+    padding: 0 18px;
+}
+
+.photos-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #222222;
+    margin: 0;
+    padding: 0 0 21px 0;
+}
+
+.photos__images img{
+    /* margin: 2.5px; */
+    padding: 2.5px 0;
+}
+
+.char{
+    padding: 0 18px;
+}
+
+.char3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #222222;
+    margin: 50px 0;
+}
+
+.ch__list{
+    padding: 0;
+    list-style: none;
+}
+
+.ch__item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ch__name{
+    font-family: 'Montserrat' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+    color: #222222;
+}
+
+.ch__name > span{
+    font-size: 10px;
+}
+
+.ch__name > span > span{
+    font-size: 3px;
+}
+
+.pj__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #222222;
+    margin: 0;
+    padding: 50px 18px 30px;
+}
+
+.pj__title2{
+    word-wrap: break-word;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 90px;
+    color: #222222;
+    margin: 0;
+    padding: 50px 18px 30px;
+}
